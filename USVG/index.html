@@ -24,6 +24,25 @@
     <!-- Custom styles for this template -->
     <link href="../poster.css" rel="stylesheet">
 
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .fit { /* set relative picture size */
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .center {
+            display: block;
+            margin: auto;
+        }
+        p {
+          font-size: 16px;
+        }
+        
+    </style>
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="bootstrap/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!--<script src="bootstrap/assets/js/ie-emulation-modes-warning.js"></script>-->
@@ -48,6 +67,11 @@
         <p class="centered">This is the static demo website of the paper "A unified model for zero-shot singing voice conversion and synthesis", which will be presented in the ISMIR 2022 conference.</p>
         <p class="centered">In this paper, we propose a unified model for zero-shot singing voice synthesis (SVS) and singing voice conversion (SVC). By going one step further from Bonada and Blaauw's previous work on semi-supervised SVS (<a class="lead_link" href="https://ieeexplore.ieee.org/document/9413400">this paper</a>), we have demonstrated the possibility of achieving zero-shot SVS and SVC, all in a same model, with the use of both labeled and unlabeled singing data for model training.</p>
       </div>
+
+      <p class="centered"><img class="center fit" src="images/usvg_arch.png"/>
+      Above figure: The architecture of the proposed "unified singing voice generation model", or "USVG". <br><br></p>
+      
+
 
       <h2>Unseen SVC</h2>
       <p>Demo songs synthesized in the <b>unseen SVC</b> scenario, where a source audio and a target audio are taken as input. The model synthesizes the audio which contains both the <b>singing content</b> from the source audio and the <b>singer identity</b> from the target audio. Both the singers of the source audio and target audio were <b>unseen</b> during model training.</p>      
@@ -208,11 +232,11 @@
       </div>
 
       <h3>Source code</h3>
-      <p>The source code of this paper can be found at <a class="lead_link" href="https://github.com/bryan051003/USVG/">https://github.com/bryan051003/USVG</a></p>
+      <p>The source code of this paper can be found at <a class="lead_link" href="https://github.com/bryan051003/USVG/">https://github.com/bryan051003/USVG</a>.</p>
 
       <h3>Credits</h3>
-      <p>Thanks to Prof. Yi-Wen Liu for providing the MPOP600 dataset for model training.</p>
-      <p>This static website is modified from <a class="lead_link" href="https://mtg.github.io/singing-synthesis-demos/semisupervised/">Bonada and Blaauw's demo website</a>.</p>
+      <p style="font-size:14px">Thanks to Prof. Yi-Wen Liu for providing the MPOP600 dataset for model training.</p>
+      <p style="font-size:14px">This static website is modified from <a class="lead_link" href="https://mtg.github.io/singing-synthesis-demos/semisupervised/">Bonada and Blaauw's demo website</a>.</p>
 
       <br><br><br>
       Last update: 2022.11.30 by york135 (Jun-You Wang) <br>
