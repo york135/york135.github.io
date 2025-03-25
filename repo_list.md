@@ -6,7 +6,7 @@ subtitle: A list of official repositories and my previous works
 
 Here is a table of all my previous works that have the official repo. There is always an official repo for a paper where I am the first author. If I am not the first author, then there may or may not be an official repo (depends on the decision of the first author).
 
-Note that in some of the repositories, the maintainer is not me (where I am not the first author). The maintainer(s) is the same as the main contributor(s) here.
+Note that in some of the repositories, the maintainer is not me (where I am not the first author). The maintainer(s) is/are the same as the main contributor(s) here.
 
 | Paper name | Published at | Repo URL | Type | Main contributor(s) |
 | :---: |:---:|:---: | :---: | :---:|
