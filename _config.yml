@@ -20,7 +20,10 @@ author: Jun-You Wang
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  Dataset: "dataset"
+  Official repo: "repo_list"
+  Publication list: "publist"
+  Interst: "interst"
 
 ################
 # --- Logo --- #
@@ -47,7 +50,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: junyouwang135@gmail.com
-  github: https://github.com/york135
+  github: york135
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
